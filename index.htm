@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="styles.css">
+<div class="title">
+  <h1> Random Javascript Stuff! </h1>
+    <h2><font size=6 face="Oswald">Find crap you want me to put on here?! Tell me and I may do it!</font></h2>
+</div>
+<div class="jumbotron">
+    <p><font face="Oswald ">Drag this link to your bookmarks bar: </font>
+    <p><a><a href="javascript:var%20i,s,ss=['http://kathack.com/js/kh.js','http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js'];for(i=0;i!=ss.length;i++){s=document.createElement('script');s.src=ss[i];document.body.appendChild(s);}void(0);"
+		      title="Katamari!"><font size=12 face="Oswald">KATAMARI!</font></a>
+    
+    </p>
+<div class="jumbotron">
+    <p><font face="Oswald ">Drag this link to your bookmarks bar: </font>
+    <p><a><a href="javascript:(function () {var s = document.createElement('script');s.setAttribute('src', 'http://fontbomb.ilex.ca/js/main.js');document.body.appendChild(s);}());" title="fontBomb"><font size=12 face="Oswald">FontBomb!</font></a>
+    
+</p>
+<div class="jumbotron">
+    <p><font face="Oswald ">Drag this link to your bookmarks bar: </font>
+        
+    <p><a><a href="javascript:(function(){%20ktndata=null,%20fcb=function(d){%20ktndata=d;%20var%20p=document.getElementsByTagName('img');%20for(var%20i%20in%20p){%20p[i].width=p[i].width;%20p[i].height=p[i].height;%20p[i].src=d.items[Math.floor(Math.random()*(d.items.length))].media.m;%20}%20};%20if(!ktndata){%20var%20jp=document.createElement('script');%20jp.setAttribute('type','text/javascript');%20jp.setAttribute('src','http://api.flickr.com/services/feeds/photos_public.gne?tags=kitten&tagmode=any&format=json&jsoncallback=fcb');%20document.getElementsByTagName('head')[0].appendChild(jp);%20}%20else{%20fcb(ktndata);%20}%20})()"><font size=12 face="Oswald">Kittenify!</font></a>
+        
+    
+</p>
+
+<div class="jumbotron">
+    <p><font face="Oswald ">Drag this link to your bookmarks bar: </font>
+        
+    <p><a><a href="javascript:document.ondragstart=function(){return false};(chess=function(){$('.md>table:not(.EGrawChess)').attr('class','EGrawChess').css('font-size','20px').mousedown(function(e){x=e;e.preventDefault();this.moving=(t=e.target)[h='innerHTML'];if(!e.ctrlKey)t[h]=' ';$(t).mousemove()}).mousemove(function(e){if(this.moving&&(t=e.target).old==undefined){t.old=t[h];t[h]=this.moving;$(t).mouseout(function(ee){(t=ee.target)[h]=t.old;t.old=undefined;$(t).unbind(ee)})}}).mouseup(function(e){$(e.target).unbind('mouseout');e.target.old=undefined;(th=this).moving=undefined;out=[];$(th).find('tr').each(function(){row=[];$(this).find('td,th').each(function(){row.push(((tx=this.textContent)!=undefined?tx:this.innerText).replace(/.%2A([1-8]).%2A/,'%2A%2A$1%2A%2A'))});out.push(row.join('|'))});out.unshift(out[0]);out[1]=out[1].replace(/[^|]%2A/g,'---');$(th).closest('.entry').find('.buttons a:contains(reply)').click();$(th).closest('.entry').nextAll().find('[name=text]').val(out.join('\n'));})})();before='';link%5Fid=document.location.toString().replace(/.%2A?comments.([^\/]%2A).%2A/,'t3%5F$1');get=function(d){if(d&&d.data&&(ch=d.data.children).length){before='&before='+ch[0].data.name;for(i in ch){c=ch[i].data;if(c.link%5Fid==link%5Fid&&!$('[id^=form-'+c.name+']').length){$.request('morechildren',{children:c.id,link%5Fid:c.link%5Fid})}}}else{$.getJSON('/comments.json?limit=100'+before+'&'+Math.random(),get);}};void(document.seti=document.seti?true:setInterval(get,3000));if(!$.insert%5Fthings%5F){$.insert%5Fthings%5F=$.insert%5Fthings;void($.insert%5Fthings=function(things,append){ret=$.insert%5Fthings%5F(things,append);chess();return ret})}"><font size=12 face="Oswald">Chess!</font><font size=3 face="Oswald">(Because I'm running out of ideas!)</font></font></a>
+</div>
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    
